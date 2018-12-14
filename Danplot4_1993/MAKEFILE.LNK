@@ -1,0 +1,4 @@
+report_debug_files
+load *.obj
+file danplot.exe
+
