@@ -152,7 +152,7 @@ c----------------------- moving the mesh -------------------------------
       ELSEIF (KEYWORD.EQ.'*X_TO_Y') THEN            ! flip x and y
         CALL X2Y    (GC,IGC,NN,NDIM)
 
-      ELSEIF (KEYWORD.EQ.'*WRAP_AROUND_Y') THEN     ! treat Z as é
+      ELSEIF (KEYWORD.EQ.'*WRAP_AROUND_Y') THEN     ! treat Z as Ã©
         CALL WRAP_Y (GC,IGC,NN,NDIM)
 
       ELSEIF (KEYWORD.EQ.'*CIRCLE_A_SQUARE') THEN   ! move nodes onto an arc
