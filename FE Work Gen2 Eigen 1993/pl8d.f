@@ -1031,7 +1031,7 @@ C------------------> typed anisotropic displacemnt scaling
      +                             ' ) new x,y,z disp. scale ?'
         READ*,XDS,YDS,ZDS
 C ---> typed centre -of-attention
-      ELSEIF (CKEY.EQ.'œ') THEN  
+      ELSEIF (CKEY.EQ.'Âœ') THEN  
         WRITE(*,'(A,3F10.4)') 'COA ?',COA(1), COA(2), COA(3)
         READ*,COA(1), COA(2), COA(3)
         CKEY = '_'
@@ -1986,7 +1986,7 @@ C
 C.... really the looping of the sub-facet nodes should be in the main
 c.... program.. a sub-routine could return them (eg. 4 node or 8 node
 C....                                             or even sub-triangles) 
-C.... ¨ or have 2 interfaces to SAMPLE .. one will do all nodes
+C.... Â¨ or have 2 interfaces to SAMPLE .. one will do all nodes
 C....  the other just a given (by #?) point
 
       REAL LC_SF (ILC_SF,*)
