@@ -1,6 +1,6 @@
 C-----------------------------------------------------------------------
 c >>>  This the GRAPHICS part of the code, incluing
-c       1/ all œD transformations
+c       1/ all Å“D transformations
 c       2/ all Palette adjusting
 c       3/ all Primitive Drawing
 c       4/ the GOURAUD interpolated shader
