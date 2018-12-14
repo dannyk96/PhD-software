@@ -3,3 +3,17 @@ It was my reqworking of my Ph.D software to make it evelove into a more general 
 ie. moving from just analysing SLope Stability problems to being used to analyse Spud-cans and Piles and later eigenmodes.
 
 Daniel Kidger . daniel.kidger@gmail.com
+
+== Notes
+  o The Fortran source, although generic has some embedded compiler hints for the Salford Fortran Compiler for MS-DOS.
+  o The original filenames were all upercase with the .FOR extension. These renamed here in a lowercase and with .f extensions
+  o This is Fortan77 not Fortran90 so is fixed format. It does though use every more modern Fortran features that compilers alow, eg lowercase names, and no lomit of 6 characters.
+
+
+== Important Files
+
+l1a.fR .  main library of matrix algenrea and FEA subroutines
+
+
+== Other Files
+
