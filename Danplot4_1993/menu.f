@@ -760,11 +760,11 @@ C
 
      +  ,10, 40, 90,16,    'Disps:'            ,' ' ,  0 
 
-     +  ,10, 60, 90,16,    'Î-total'           ,'K'  ,30
+     +  ,10, 60, 90,16,    '√´-total'           ,'K'  ,30
 
-     +  ,10, 80, 30,16,    'Îx'                ,'K'  ,31
-     +  ,45, 80, 30,16,    'Îy'                ,'K'  ,32
-     +  ,80, 80, 30,16,    'Îz'                ,'K'  ,33
+     +  ,10, 80, 30,16,    '√´x'                ,'K'  ,31
+     +  ,45, 80, 30,16,    '√´y'                ,'K'  ,32
+     +  ,80, 80, 30,16,    '√´z'                ,'K'  ,33
      +  ,10,100, 30,16,    '46'                ,'K'  ,46
      +  ,45,100, 30,16,    '47'                ,'K'  ,47
      +  ,80,100, 30,16,    '48'                ,'K'  ,48
@@ -1284,11 +1284,11 @@ c.. also nice to optionaly switch off the shadowing of the buttons
 
       DO J=0,ithk -1                   !- 'thick' borders
         CALL DRAW_LINE@ (ints(IXF+J),ints(IYT-J),
-     +                   ints(IXF+J),ints(IYF+J),ints(ICOL1))  ! …Õ   top
+     +                   ints(IXF+J),ints(IYF+J),ints(ICOL1))  ! √â√ç   top
         CALL DRAW_LINE@ (ints(IXF+J),ints(IYF+J),
      +                   ints(IXT-J),ints(IYF+J),ints(ICOL1))  !      right
         CALL DRAW_LINE@ (ints(IXT-J),ints(IYF+J),
-     +                   ints(IXT-J),ints(IYT-J),ints(ICOL2))  !   Õº bottom
+     +                   ints(IXT-J),ints(IYT-J),ints(ICOL2))  !   √ç¬º bottom
         CALL DRAW_LINE@ (ints(IXT-J),ints(IYT-J),
      +                   ints(IXF+J),ints(IYT-J),ints(ICOL2))  !      left
       ENDDO
