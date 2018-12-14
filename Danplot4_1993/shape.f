@@ -1274,7 +1274,7 @@ C      produced automaticaly by COMPUTER ALGEBRA code
 C           by Dan KIdger 1993                           
 C
 C    .. this is the 'Average of the LHS and RHS types' Element: 
-C       *  sf = f (8nb terms, xý,yý,zý,(xýy,yýz,zýx)+(xýz,yýx,zýy) ) 
+C       *  sf = f (8nb terms, xÃ½,yÃ½,zÃ½,(xÃ½y,yÃ½z,zÃ½x)+(xÃ½z,yÃ½x,zÃ½y) ) 
 C
       REAL DER(IDER,*),FUN(*),SAMP(ISAMP,*)              
 c     NOD=14
@@ -1358,8 +1358,8 @@ C      produced automaticaly by COMPUTER ALGEBRA code
 C           by Dan KIdger 1993                           
 C
 C    .. this is the 'Serendipity' Element: 
-C       *  centre = (1-xý)(1-yý)(1-z)
-C       *  corner = (1-x)(1-y)(1-z) - ä centre-funcs at this node
+C       *  centre = (1-xÃ½)(1-yÃ½)(1-z)
+C       *  corner = (1-x)(1-y)(1-z) - Ã¤ centre-funcs at this node
 C
       REAL DER(IDER,*),FUN(*),SAMP(ISAMP,*)              
 c     NOD=14
