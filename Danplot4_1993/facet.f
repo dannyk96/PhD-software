@@ -273,7 +273,7 @@ C
 C.... really the looping of the sub-facet nodes should be in the main
 c.... program.. a sub-routine could return them (eg. 4 node or 8 node
 C....                                             or even sub-triangles) 
-C.... ¨ or have 2 interfaces to SAMPLE .. one will do all nodes
+C.... Â¨ or have 2 interfaces to SAMPLE .. one will do all nodes
 C....  the other just a given (by #?) point
 
       REAL LC_SF (ILC_SF,*)
