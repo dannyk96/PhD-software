@@ -23,7 +23,12 @@ Daniel Kidger . daniel.kidger@gmail.com
 | eigen_4.f  |   1  | Creates an inididual Finite Element Stiffness matrix then solves the EIgenvalue problem to show fundamental deformation modes. Compile and link with l1a.f
 | pl8d.f |49 | Graphical post processor - forerunner of DANPLOT. It #include's shape.f  Note the built-in PostScript driver :-) .  This is monolythinc with 48 subroutines!
 
+## Data Files
 
+| filename   | run with | Description |
+| ---------- | -------- | ----------- |
+| spud3d4.d | gen4 ? | Spud can mesh as a quarter cylinder of soil with two piles close to the spud can.
+| tun_12.d | gen6 ~? |  Showing use of *DANBLOCKS to create a lined tunnel with a block of ground 
 
 ## Other Files
 | filename   | functions | Description |
