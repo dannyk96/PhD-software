@@ -4,16 +4,16 @@ ie. moving from just analysing SLope Stability problems to being used to analyse
 
 Daniel Kidger . daniel.kidger@gmail.com
 
-== Notes
-  o The Fortran source, although generic has some embedded compiler hints for the Salford Fortran Compiler for MS-DOS.
-  o The original filenames were all upercase with the .FOR extension. These renamed here in a lowercase and with .f extensions
-  o This is Fortan77 not Fortran90 so is fixed format. It does though use every more modern Fortran features that compilers alow, eg lowercase names, and no lomit of 6 characters.
+## Notes
+  * The Fortran source, although generic has some embedded compiler hints for the Salford Fortran Compiler for MS-DOS.
+  * The original filenames were all upercase with the .FOR extension. These renamed here in a lowercase and with .f extensions
+  * This is Fortan77 not Fortran90 so is fixed format. It does though use every more modern Fortran features that compilers alow, eg lowercase names, and no lomit of 6 characters.
 
 
-== Important Files
+## Important Files
 
-l1a.fR .  main library of matrix algenrea and FEA subroutines
+l1a.f .  main library of matrix algebra and FEA subroutines
 
 
-== Other Files
+## Other Files
 
