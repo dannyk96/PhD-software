@@ -688,7 +688,7 @@ c           LD  = 1.         !- try starting at the first load step ?
         ENDIF
 C------------- 'facet# to always/never draw' ---------------------------
 c... again I can fill in a table off the menu  0,1,2 for each of the 6
-      ELSEIF (CKEY.EQ.'E')THEN           !-- was '|' , & then was á  !!
+      ELSEIF (CKEY.EQ.'E')THEN           !-- was '|' , & then was Ã¡  !!
         write(*,'(a,a,6i2)')C_T,'facet codes(1..6)?=',(ID_FACE(i),i=1,6)
         write(*,*) '0 = selective, 1=never, 2=always'
         read*,(ID_FACE(i),i=1,6)
@@ -1130,7 +1130,7 @@ c        WRITE(*,'(A,3F8.2,A)')
 c     +    '(',XDS,YDS,ZDS,' ) new x,y,z disp. scale ?'
 c        READ*,XDS,YDS,ZDS
 C-------------------- typed centre -of-attention -----------------------
-      ELSEIF (CKEY.EQ.'œ') THEN  
+      ELSEIF (CKEY.EQ.'Âœ') THEN  
         WRITE(*,'(A,3F10.4)') 'COA ?',COA(1), COA(2), COA(3)
         READ*,COA(1), COA(2), COA(3)
         CKEY = '_'
